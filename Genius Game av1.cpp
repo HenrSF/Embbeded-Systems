@@ -98,7 +98,6 @@
       sequence_length++;
       current_round++;
       generate_sequence();
-      input();
       if (!check_sequence()) {
         game_running = false;
         game_over();
